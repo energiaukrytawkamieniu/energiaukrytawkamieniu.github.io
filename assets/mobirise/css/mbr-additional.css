@@ -1347,13 +1347,13 @@ a {
 .cid-tL3wFLpDuV {
   padding-top: 5rem;
   padding-bottom: 0rem;
-  background-color: #232323;
+  background-color: #000000;
 }
 .cid-tL3wFLpDuV img,
 .cid-tL3wFLpDuV .item-img {
   width: 100%;
   height: 100%;
-  height: 300px;
+  height: 200px;
   object-fit: cover;
 }
 .cid-tL3wFLpDuV .item:focus,
@@ -1408,13 +1408,13 @@ a {
 .cid-tL3z9E3UQP {
   padding-top: 0rem;
   padding-bottom: 0rem;
-  background-color: #232323;
+  background-color: #000000;
 }
 .cid-tL3z9E3UQP img,
 .cid-tL3z9E3UQP .item-img {
   width: 100%;
   height: 100%;
-  height: 300px;
+  height: 200px;
   object-fit: cover;
 }
 .cid-tL3z9E3UQP .item:focus,
@@ -1469,7 +1469,7 @@ a {
 .cid-tL3IiVgNue {
   padding-top: 4rem;
   padding-bottom: 2rem;
-  background-color: #232323;
+  background-color: #000000;
 }
 .cid-tL3IiVgNue .mbr-fallback-image.disabled {
   display: none;
@@ -1487,7 +1487,7 @@ a {
   margin: auto;
   display: inline-flex;
   font-size: 2rem;
-  color: #9fe870;
+  color: #ffffff;
   width: 40px;
   justify-content: center;
   align-items: center;
@@ -1497,7 +1497,7 @@ a {
   color: #ffffff;
 }
 .cid-tL3IiVgNue .card-text {
-  color: #232323;
+  color: #ffffff;
 }
 .cid-tL3IiVgNue .mbr-section-title {
   color: #ffffff;
@@ -1508,7 +1508,7 @@ a {
 .cid-tL5RxCnOPK {
   padding-top: 0rem;
   padding-bottom: 3rem;
-  background-color: #232323;
+  background-color: #000000;
 }
 .cid-tL5RxCnOPK .mbr-fallback-image.disabled {
   display: none;
@@ -1548,7 +1548,7 @@ a {
 .cid-tN4MWCYtef {
   padding-top: 3rem;
   padding-bottom: 5rem;
-  background: #232323;
+  background: #000000;
 }
 .cid-tN4MWCYtef .mbr-fallback-image.disabled {
   display: none;
@@ -1631,7 +1631,7 @@ a {
 .cid-tL5P8drJvH {
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: #232323;
+  background-color: #000000;
   overflow: hidden;
 }
 .cid-tL5P8drJvH .media-container-row .mbr-text {
@@ -2213,9 +2213,9 @@ a {
   }
 }
 .cid-tL3LPjzUMd {
-  padding-top: 8rem;
+  padding-top: 10rem;
   padding-bottom: 0rem;
-  background-color: #232323;
+  background-color: #000000;
 }
 .cid-tL3LPjzUMd .mbr-fallback-image.disabled {
   display: none;
@@ -2255,9 +2255,9 @@ a {
   color: #ffffff;
 }
 .cid-tL3N5904LP {
-  padding-top: 6rem;
+  padding-top: 2rem;
   padding-bottom: 2rem;
-  background-color: #232323;
+  background-color: #000000;
 }
 .cid-tL3N5904LP h6 {
   line-height: 1.2;
@@ -2307,7 +2307,7 @@ a {
 .cid-tL5P8drJvH {
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: #232323;
+  background-color: #000000;
   overflow: hidden;
 }
 .cid-tL5P8drJvH .media-container-row .mbr-text {
