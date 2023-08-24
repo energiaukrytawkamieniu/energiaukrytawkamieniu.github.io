@@ -1312,7 +1312,7 @@ a {
 }
 @media (min-width: 768px) {
   .cid-tL3vtJVPQ4 {
-    align-items: flex-end;
+    align-items: center;
   }
   .cid-tL3vtJVPQ4 .row {
     justify-content: center;
@@ -3868,52 +3868,6 @@ a {
     transform: rotate(359deg);
   }
 }
-.cid-tNgnpPlEGW {
-  padding-top: 150px;
-  padding-bottom: 75px;
-  background-color: #171717;
-}
-.cid-tNgnpPlEGW .mbr-fallback-image.disabled {
-  display: none;
-}
-.cid-tNgnpPlEGW .mbr-fallback-image {
-  display: block;
-  background-size: cover;
-  background-position: center center;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-}
-.cid-tNgnpPlEGW .row {
-  align-items: stretch;
-  justify-content: center;
-}
-.cid-tNgnpPlEGW .row .img-item {
-  display: -webkit-flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 100%;
-}
-.cid-tNgnpPlEGW .row .img-item img {
-  width: 100%;
-  object-fit: cover;
-  min-height: 1px;
-}
-.cid-tNgnpPlEGW img,
-.cid-tNgnpPlEGW .item-img {
-  width: 100%;
-  object-position: 50% top;
-  height: 500px;
-  object-fit: cover;
-}
-.cid-tNgnpPlEGW H5 {
-  color: #ffffff;
-}
-.cid-tNgnpPlEGW .mbr-text,
-.cid-tNgnpPlEGW .mbr-section-btn {
-  color: #ffffff;
-}
 .cid-tNgnfmYNe8 {
   z-index: 1000;
   width: 100%;
@@ -4488,6 +4442,52 @@ a {
   .cid-tNgnfmYNe8 .navbar-collapse {
     padding: 1rem;
   }
+}
+.cid-tNgnpPlEGW {
+  padding-top: 150px;
+  padding-bottom: 75px;
+  background-color: #171717;
+}
+.cid-tNgnpPlEGW .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-tNgnpPlEGW .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-tNgnpPlEGW .row {
+  align-items: stretch;
+  justify-content: center;
+}
+.cid-tNgnpPlEGW .row .img-item {
+  display: -webkit-flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+.cid-tNgnpPlEGW .row .img-item img {
+  width: 100%;
+  object-fit: cover;
+  min-height: 1px;
+}
+.cid-tNgnpPlEGW img,
+.cid-tNgnpPlEGW .item-img {
+  width: 100%;
+  object-position: 50% top;
+  height: 500px;
+  object-fit: cover;
+}
+.cid-tNgnpPlEGW H5 {
+  color: #ffffff;
+}
+.cid-tNgnpPlEGW .mbr-text,
+.cid-tNgnpPlEGW .mbr-section-btn {
+  color: #ffffff;
 }
 .cid-tNgnfo4Aez {
   padding-top: 30px;
