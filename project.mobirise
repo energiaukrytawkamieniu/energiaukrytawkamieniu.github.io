@@ -1298,6 +1298,39 @@
           "_params": {}
         },
         {
+          "_params": {
+            "modalName": "popup",
+            "modalSize": "large",
+            "modalHeader": true,
+            "modalTitle": "Kupujesz -> zyskujesz",
+            "modalBody": "Przy zakupie dwóch wspaniałości trzecia za 50% ceny i darmowa wysyłka.",
+            "modalBodyHTML": false,
+            "modalFooter": true,
+            "modalCloseBtn": true,
+            "modalCloseText": "Zamknij",
+            "modalLink": false,
+            "modalLinkUrl": "www.energiaukrytawkamieniu.pl",
+            "modalLinkText": "Skorzystaj",
+            "modalLinkNewWindow": true,
+            "modalVerticalCenter": true,
+            "modalFade": true,
+            "modalAutoOpen": true,
+            "modalAutoOpenOnce": true,
+            "modalAutoOpenGDPR": true,
+            "modalAutoOpenDelay": "10"
+          },
+          "modalTest": "<div class=\"mbr-section-btn\">\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#popup\" data-bs-toggle=\"modal\" data-bs-target=\"#popup\">Preview popup</a>\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#popup-howtouse\" data-bs-toggle=\"modal\" data-bs-target=\"#popup-howtouse\">How to use popup</a>\n</div>\n<div class=\"modal fade\" id=\"popup-howtouse\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"popup-howtouseLabel\" aria-hidden=\"true\">\n  <div class=\"modal-dialog\" role=\"document\" style=\"height:auto\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h5 class=\"modal-title display-7\" id=\"popup-howtouseLabel\">How to use?</h5>\n        <a href=\"\" class=\"close\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a>\n      </div>\n      <div class=\"modal-body display-7\">\n        Using your new modal is very easy. Simply create a new link, then click the \"...\" tab and enter the following as custom URL:<br /><br />\n        <code>javascript:OpenModal('popup')</code>\n      </div>\n      <div class=\"modal-footer\">\n        <div class=\"mbr-section-btn\"><a href=\"#\" class=\"btn btn-secondary display-4\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\">Close</a></div>\n      </div>\n    </div>\n  </div>\n</div>",
+          "modalBody": "Przy zakupie dwóch wspaniałości trzecia za 50% ceny i darmowa wysyłka.",
+          "alias": "witsec-modal-window",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "witsec-modal-window-block",
+          "_sourceTheme": "startm5",
+          "_anchor": "witsec-modal-window-block-1f",
+          "modalWindow": "<div class=\"modal fade\" id=\"popup\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"popupLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog modal-lg modal-dialog-centered\" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title display-7\" id=\"popupLabel\">Kupujesz -> zyskujesz</h5>  <a href=\"#\" class=\"no-anim close\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body display-7\" id=\"popup_body\">Przy zakupie dwóch wspaniałości trzecia za 50% ceny i darmowa wysyłka.</div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\">Zamknij</a></div></div>    </div>  </div></div><script> \ndocument.addEventListener(\"DOMContentLoaded\", function() { \n  if(typeof jQuery === \"function\") {\n    $(\"#popup\").on(\"hidden.bs.modal\", function () { \n      var html = $( \"#popup_body\" ).html(); \n      $( \"#popup_body\" ).empty(); \n      $( \"#popup_body\" ).append(html); \n    }) \n  } else { \n      var mdw = document.getElementById(\"#popup\") \n      mdw.addEventListener(\"hidden.bs.modal\", function(event) { \n        mdw.innerHTML = mdw.innerHTML; \n      }); \n  } \n}); \n</script>"
+        },
+        {
           "_name": "MobiWise-Block",
           "_sourceTheme": "mobirise5",
           "_styles": {
@@ -1366,39 +1399,6 @@
           "_global": true,
           "_once": true,
           "_params": {}
-        },
-        {
-          "_params": {
-            "modalName": "popup",
-            "modalSize": "large",
-            "modalHeader": true,
-            "modalTitle": "Kupujesz -> zyskujesz",
-            "modalBody": "Przy zakupie dwóch wspaniałości trzecia za 50% ceny i darmowa wysyłka.",
-            "modalBodyHTML": false,
-            "modalFooter": true,
-            "modalCloseBtn": true,
-            "modalCloseText": "Zamknij",
-            "modalLink": true,
-            "modalLinkUrl": "www.energiaukrytawkamieniu.pl",
-            "modalLinkText": "Skorzystaj",
-            "modalLinkNewWindow": true,
-            "modalVerticalCenter": true,
-            "modalFade": true,
-            "modalAutoOpen": true,
-            "modalAutoOpenOnce": true,
-            "modalAutoOpenGDPR": true,
-            "modalAutoOpenDelay": "10"
-          },
-          "modalTest": "<div class=\"mbr-section-btn\">\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#popup\" data-bs-toggle=\"modal\" data-bs-target=\"#popup\">Preview popup</a>\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#popup-howtouse\" data-bs-toggle=\"modal\" data-bs-target=\"#popup-howtouse\">How to use popup</a>\n</div>\n<div class=\"modal fade\" id=\"popup-howtouse\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"popup-howtouseLabel\" aria-hidden=\"true\">\n  <div class=\"modal-dialog\" role=\"document\" style=\"height:auto\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h5 class=\"modal-title display-7\" id=\"popup-howtouseLabel\">How to use?</h5>\n        <a href=\"\" class=\"close\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a>\n      </div>\n      <div class=\"modal-body display-7\">\n        Using your new modal is very easy. Simply create a new link, then click the \"...\" tab and enter the following as custom URL:<br /><br />\n        <code>javascript:OpenModal('popup')</code>\n      </div>\n      <div class=\"modal-footer\">\n        <div class=\"mbr-section-btn\"><a href=\"#\" class=\"btn btn-secondary display-4\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\">Close</a></div>\n      </div>\n    </div>\n  </div>\n</div>",
-          "modalBody": "Przy zakupie dwóch wspaniałości trzecia za 50% ceny i darmowa wysyłka.",
-          "alias": "witsec-modal-window",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "witsec-modal-window-block",
-          "_sourceTheme": "startm5",
-          "_anchor": "witsec-modal-window-block-1f",
-          "modalWindow": "<div class=\"modal fade\" id=\"popup\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"popupLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog modal-lg modal-dialog-centered\" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title display-7\" id=\"popupLabel\">Kupujesz -> zyskujesz</h5>  <a href=\"#\" class=\"no-anim close\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body display-7\" id=\"popup_body\">Przy zakupie dwóch wspaniałości trzecia za 50% ceny i darmowa wysyłka.</div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\">Zamknij</a></div><div class=\"mbr-section-btn\"><a href=\"www.energiaukrytawkamieniu.pl\" class=\"no-anim btn btn-primary display-4\" target=_new>Skorzystaj</a></div></div>    </div>  </div></div><script> \ndocument.addEventListener(\"DOMContentLoaded\", function() { \n  if(typeof jQuery === \"function\") {\n    $(\"#popup\").on(\"hidden.bs.modal\", function () { \n      var html = $( \"#popup_body\" ).html(); \n      $( \"#popup_body\" ).empty(); \n      $( \"#popup_body\" ).append(html); \n    }) \n  } else { \n      var mdw = document.getElementById(\"#popup\") \n      mdw.addEventListener(\"hidden.bs.modal\", function(event) { \n        mdw.innerHTML = mdw.innerHTML; \n      }); \n  } \n}); \n</script>"
         }
       ]
     },
